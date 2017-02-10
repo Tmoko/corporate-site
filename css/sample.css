@@ -339,7 +339,7 @@ h1 {
   /* Company page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contents #main th, #contents #main td {
-  padding-right: 20px;
+  padding: 20px 0;
   color: #626262;
   font-size: 1.4rem; }
 
