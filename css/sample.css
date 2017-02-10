@@ -332,8 +332,15 @@ h1 {
     @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
       #contents #sidebar .pc_sidemenu li {
         background-image: url(../images/news/side_arrow@2x.png); } }
-  @media (min-width: 550px) {
-    #contents h3 {
-      font-size: 3.6rem; } }
+  @media (max-width: 550px) {
+    #contents .pc_sidemenu {
+      display: none; } }
+
+  /* Company page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contents #main th, #contents #main td {
+  padding-right: 20px;
+  color: #626262;
+  font-size: 1.4rem; }
 
 /*# sourceMappingURL=sample.css.map */
